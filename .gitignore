@@ -1,0 +1,29 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Java / build
+*.class
+*.log
+target/
+build/
+.gradle/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node (se tiver front junto)
+node_modules/
+dist/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Segredos (nunca versione)
+.env
+*.pem
+*.keystore
+*.jks
