@@ -1,8 +1,4 @@
-import java.util.ArrayList;
-
-
 public class Personagem {
-
 
     String nome;
     String classe;
@@ -11,8 +7,6 @@ public class Personagem {
     int vidaMaxima;
     int ataque;
     int defesa;
+    int pocoes;      // <- sem acento! "poções" NÃO compila
     int xp;
-    int moedas;
-    int veneno;                 // turnos de veneno restantes (0 = sem veneno)
-    ArrayList<Item> mochila;    // precisa de new antes de usar
 }
