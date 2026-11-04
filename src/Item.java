@@ -1,3 +1,5 @@
+
+//=======================Pietro===================================
 // 🧪 ============================================================
 // 📋 CLASSE ITEM — representa poções e melhorias da loja.
 // Cada efeito só é aplicado quando seu valor é maior que zero.

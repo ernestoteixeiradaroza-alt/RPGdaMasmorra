@@ -1,3 +1,5 @@
+
+//========================Ernesto=========================
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -98,6 +100,7 @@ public class Principal {
         inimigos.add(new Inimigo("Esqueleto", 35, 10, 4, 20, 20));
         inimigos.add(new Inimigo("Dragão", 60, 16, 6, 35, 35));
         return inimigos;
+
     }
 
     // 🏪 O catálogo usa a mesma classe Item para poções e melhorias.
@@ -113,6 +116,7 @@ public class Principal {
     public static boolean menuEntreSalas(
             Personagem heroi, ArrayList<Item> itensLoja, Scanner leitor,
             int proximaSala, int totalSalas, String proximoInimigo) {
+        //==========================Ernesto=====================================================================
 
         int opcao;
         do {
@@ -214,6 +218,8 @@ public class Principal {
             System.out.println("📈 Próxima " + item.nome + ": "
                     + item.preco + " moedas.");
         }
+        //==========================Ernesto=====================================================================
+        //============================Pietro===================================================================
         return true;
     }
 
@@ -335,9 +341,10 @@ public class Principal {
             System.out.println("💗 Vida máxima: " + heroi.vidaMaxima
                     + " | ⚔️ Ataque: " + heroi.ataque);
             System.out.println("❤️ Sua vida foi totalmente recuperada!");
+            //====================Pietro=====================================================================
         }
     }
-
+        //=============================Felipe===================================================================
     public static void mostrarProgressoXP(Personagem heroi) {
         int necessario = xpParaProximoNivel(heroi.nivel);
         System.out.println("⭐ XP: " + heroi.xp + "/" + necessario);

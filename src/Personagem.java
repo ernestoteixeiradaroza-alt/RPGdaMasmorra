@@ -1,3 +1,5 @@
+
+//======================Felipe===============================
 // 🧙 ============================================================
 // 📋 CLASSE PERSONAGEM — guarda o estado do aventureiro.
 // As melhorias compradas permanecem quando o herói sobe de nível.
