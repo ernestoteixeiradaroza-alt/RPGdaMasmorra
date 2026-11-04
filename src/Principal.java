@@ -102,9 +102,9 @@ public class Principal {
     public static ArrayList<Inimigo> criarInimigos() {
         ArrayList<Inimigo> inimigos = new ArrayList<>();
 
-        inimigos.add(new Inimigo("Goblin", 25, 8, 2, 15, 15));
-        inimigos.add(new Inimigo("Esqueleto", 35, 10, 4, 20, 20));
-        inimigos.add(new Inimigo("Dragão", 60, 16, 6, 35, 35));
+        inimigos.add(new Inimigo("Goblin", 30, 8, 5, 15, 15));
+        inimigos.add(new Inimigo("Esqueleto", 40, 15, 8, 20, 20));
+        inimigos.add(new Inimigo("Dragão", 60, 25, 10, 50, 60));
 
         return inimigos;
     }
